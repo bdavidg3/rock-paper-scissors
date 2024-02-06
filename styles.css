@@ -30,13 +30,19 @@ h1{
 
 .center-main{
     flex-basis: 1;
+    font-size:20px;
+    min-width:300px;
+}
+
+.result{
+    font-size:70px;
 }
 
 .player-choice{
     border: 6px solid #235789;
     padding: 70px;
     border-radius: 20px;
-    
+    width: 300px;
 }
 
 button{
@@ -59,4 +65,36 @@ button:hover{
     border: 6px solid #c1292e;
     padding: 70px;
     border-radius: 20px;
+    min-width: 300px;
+}
+
+.cpu-choice p{
+    text-align: center;
+    font-size:30px;
+    margin-top:30px;
+    background-color: #c1292e;
+    border-radius: 10px;
+    padding:5px;
+}
+
+.winner{
+    transform:scale(2.5);
+    margin-top: 20px;
+    margin-bottom:20px;
+}
+
+.restart-button{
+    background-color: #23895e;
+    border: none;
+    padding:5px;
+    border-radius:10px;
+    font-size:25px;
+    margin:10px;
+}
+
+.restart-button:hover{
+    background-color: #0fec3f;
+    transform: scale(1.25);
+    cursor:pointer;
+    transition: 0.5s;
 }
